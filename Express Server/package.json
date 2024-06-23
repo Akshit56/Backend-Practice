@@ -1,18 +1,16 @@
 {
-  "name": "learning-node",
+  "name": "express-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "module",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Akshit",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.23",
-    "qr-image": "^3.2.0",
-    "sillyname": "^0.1.0",
-    "superheroes": "^4.0.0"
+    "express": "^4.19.2"
   }
 }
