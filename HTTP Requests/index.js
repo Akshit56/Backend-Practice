@@ -7,6 +7,16 @@ app.get("/", (req, res) =>{
   res.send("<h1>Hello!</h1>");
 } )
 
+app.get("/about", (req, res) =>{
+  // console.log(req.rawHeaders);
+  res.send("<h1>About!</h1>");
+} )
+
+app.get("/contact", (req, res) =>{
+  // console.log(req.rawHeaders);
+  res.send("<h1>Contact!</h1>");
+} )
+
 app.listen(port, ()=>{
   console.log(`Server has started on port ${port}`);
 });  
