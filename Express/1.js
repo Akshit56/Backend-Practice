@@ -40,6 +40,8 @@ app.get('/', function (req, res) {
 // })
 
 //upar vala sahi code hai, is vale mein error create kiya to handle it below using error handler
+//error vale app.get() mein next hona zaroori hai unike above code 
+//return isliye likhte hain taaki error dene ke baad ruk jaaye aage na badhe
 app.get('/profile', function (req, res, next) {
   return next(new Error("Not implemented")) //this will get printed in the console
 });
